@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pade {
+    width: 100%;
+}
+
+/*导航栏的开始*/
+.layui-row.one {
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.layui-col-xs4.layui-col-sm4.layui-col-md2 {
+    height: 58px;
+}
+
+.layui-col-xs4.layui-col-sm4.layui-col-md2 img {
+    height: 40px;
+    width: 126px;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.layui-col-xs4.layui-col-sm4.layui-col-md9 {
+    height: 58px;
+}
+
+.nav li {
+    display: inline-block;
+    line-height: 58px;
+    padding: 0px 17px;
+}
+
+.nav li a {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/*.layui-col-xs0.layui-col-sm0.layui-col-md1{*/
+/*    height: 58px;*/
+/*}*/
+.layui-col-xs8.layui-col-sm8.layui-col-md1 a {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    line-height: 24px;
+    border-radius: 14px;
+    border: none;
+    background: #487AF6;
+    right: 137px;
+    top: 15px;
+    padding-left: 4px;
+    font-size: 12px;
+}
+
+/*banner图开始*/
+.layui-row.two {
+    width: 100%;
+}
+
+.layui-col-xs12.layui-col-sm12.layui-col-md12 img {
+    height: 333.4px;
+    width: 1349px;
+}
+
+.layui-row.three {
+    width: 80%;
+    background: #93D1FF;
+    margin: 0 auto;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+/*内容的开始*/
+.content {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+/*白鹭引擎*/
+.content-a {
+    display: flex;
+}
+
+.content-a img {
+    width: 14px;
+    height: 18px;
+}
+
+.content-a p {
+    font-size: 22px;
+
+}
+
+.content-i {
+    width: 100%;
+    margin-top: 20px;
+    background: #F7FAFC;
+}
+/*案例推荐*/
+.content1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.content-a1{
+    display: flex;
+}
+.content-a1 img{
+    width: 14px;
+    height: 18px;
+}
+.content-a1 p{
+    font-size: 22px;
+}
+.ck{
+    width: 75px;
+    height: 24px;
+    color: #487AF6;
+    border: 1px solid #487AF6;
+    border-radius: 12px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.layui-row.layui-col-space30{
+    margin-top: 15px;
+}
+.content-a1-1{
+    border-radius: 10px;
+    box-shadow: 0px 13px 28.42px 0.58px rgba(0, 0, 0, 0.05);;
+}
+.content-a1-1 img{
+    width: 100%;
+    border-radius:10px;
+}
+/*新闻动态*/
+.content2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+.content-a2{
+    display: flex;
+}
+.content-a2 img{
+    width: 14px;
+    height: 18px;
+}
+.content-a2 p{
+    font-size: 22px;
+}
